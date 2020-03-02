@@ -39,11 +39,11 @@ p {
   margin-right: 1rem;
 }
 section {
-  margin: 10rem 0;
+  margin: 5rem 0 10rem 0;
 }
 .section__title {
   margin-top: 2rem;
-  margin-bottom: 5rem;
+  margin-bottom: 4rem;
   font-weight: 300;
   text-transform: uppercase;
 }
@@ -132,8 +132,15 @@ footer {
   }
 }
 
-@media only screen and (max-width: 323px) {
+@media only screen and (max-width: 375px) {
   .header__title {
     font-size: 1.8rem;
+    padding-top: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .header__title {
+    font-size: 1.3rem;
   }
 }
