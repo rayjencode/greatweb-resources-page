@@ -1,0 +1,117 @@
+:root {
+  --primary: red;
+  --secondary: blue;
+
+  --title: green;
+  --desc: gray;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Lato;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  color: #383838;
+  font-weight: 300;
+  margin: 0;
+  padding-top: 0.5rem;
+}
+
+.icons__brand {
+  width: 2.5rem;
+  margin-right: 1rem;
+}
+section {
+  margin: 10rem 0;
+}
+.section__title {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.topnav {
+  background: #e44d26; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f16529,
+    #e44d26
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f16529,
+    #e44d26
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.topnav__title {
+  padding: 12px 0;
+  margin: 0;
+  color: white;
+}
+
+.header {
+  height: 50vh;
+  background: #2193b0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #6dd5ed,
+    #2193b0
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #6dd5ed,
+    #2193b0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.header__title {
+  padding-top: 8rem;
+  color: white;
+}
+.header__rayjens--imgwrapper {
+  max-width: 50px;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 50px;
+}
+
+.header__rayjens--img {
+  width: 100%;
+}
+.header__rayjens--name {
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-left: 1rem;
+  color: white;
+  padding-top: 0;
+}
+.header__rayjens--desc {
+  margin-left: 1rem;
+}
+
+footer {
+  margin-top: 3rem;
+  background: #383838;
+}
+.footer__text {
+  margin: 0;
+  padding: 0.5rem 0;
+  color: white;
+}
