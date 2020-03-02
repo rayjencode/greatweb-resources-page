@@ -115,3 +115,25 @@ footer {
   padding: 0.5rem 0;
   color: white;
 }
+
+/* Media Queries */
+@media only screen and (max-width: 767px) {
+  .header__title {
+    padding-top: 4rem;
+  }
+  .col__wrapper {
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 478px) {
+  .header__title {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 323px) {
+  .header__title {
+    font-size: 1.8rem;
+  }
+}
